@@ -22,4 +22,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: 'dockerfile:v2.0.7'
+          tags: 'dockerfile:v2.0.8'
