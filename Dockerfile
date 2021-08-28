@@ -9,4 +9,4 @@ RUN pip install numpy
 RUN pip install tqdm
 RUN pip install tensorboardX
 RUN pip install Pillow
-RUN python -m pip install python-opencv
+RUN pip install opencv-python
