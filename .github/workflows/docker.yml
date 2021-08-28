@@ -16,10 +16,10 @@ jobs:
       - name: Log in to Docker Hub
         uses: docker/login-action@v1
         with:
-          username: '1037478491@qq.com'
-          password: 'zqzcmx.315716'
+          username: 'mxeatsomuch'
+          password: '1037478491'
       - name: Push to Docker Hub
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: ${{ github.repository }}:${{ env.RELEASE_VERSION }}
+          tags: 'dockerfile:v2.0.4'
