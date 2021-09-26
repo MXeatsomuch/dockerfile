@@ -8,6 +8,6 @@ RUN apt-get -y install libxrender1
 RUN apt-get -y install libxext-dev
 RUN pip install numpy
 RUN pip install tqdm
-RUN pip install tensorboardX
+RUN pip install tensorboardX tb-nightly
 RUN pip install Pillow
 RUN pip install opencv-python
