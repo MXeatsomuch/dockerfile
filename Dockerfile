@@ -6,7 +6,7 @@ RUN apt-get -y install libglib2.0-dev
 RUN apt-get -y install libsm6
 RUN apt-get -y install libxrender1
 RUN apt-get -y install libxext-dev
-RUN pip install numpy  einops timm
+RUN pip install numpy  einops timm medpy
 RUN pip install tqdm
 RUN pip install tensorboardX tb-nightly
 RUN pip install Pillow
