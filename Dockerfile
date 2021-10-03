@@ -1,4 +1,4 @@
-FROM openpai/standard:python_3.6-pytorch_1.2.0-gpu
+FROM mxeatsomuch/dockerfile:v2.1.7
 RUN python -m pip install --upgrade pip
 RUN apt-get update
 RUN apt-get -y install libgl1-mesa-glx
