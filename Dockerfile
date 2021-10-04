@@ -1,4 +1,4 @@
-FROM mxeatsomuch/dockerfile:v2.1.7
+FROM pytorch/pytorch:1.9.0-cuda10.2-cudnn7-devel
 RUN python -m pip install --upgrade pip
 RUN apt-get update
 RUN apt-get -y install libgl1-mesa-glx
