@@ -1,4 +1,4 @@
-FROM openpai/standard:python_3.6-pytorch_1.2.0-gpu
+FROM pytorch/pytorch:1.9.1-cuda11.1-cudnn8-runtime
 RUN python -m pip install --upgrade pip
 RUN apt-get update
 RUN apt-get -y install libgl1-mesa-glx
